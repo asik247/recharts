@@ -1,5 +1,5 @@
 import React from 'react';
-import { CartesianGrid, Legend, Line, LineChart, XAxis, YAxis } from 'recharts';
+import { Bar, BarChart, CartesianGrid, Legend, Line, LineChart, XAxis, YAxis } from 'recharts';
 const marks =
     [
         { "id": 1, "name": "Rahim", "physics": 75, "chemistry": 68, "math": 80 },
@@ -25,6 +25,11 @@ const Chart = () => {
 
 
             {/* Bar Chart code start here */}
+            <BarChart style={{ width: '100%', maxWidth: '700px', maxHeight: '70vh', aspectRatio: 1.618  }} data={marks}>
+                <XAxis dataKey={'name'}></XAxis>
+                <Bar dataKey={'math'}></Bar>
+                <Bar dataKey={marks.name}></Bar>
+            </BarChart>
         </div>
     );
 };

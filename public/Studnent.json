@@ -1,0 +1,142 @@
+[
+{
+  "school": {
+    "name": "Green Valley High School",
+    "code": "GVHS-1024",
+     "math":100,
+    "academicYear": "2025-2026",
+    "students": [
+      {
+        "studentId": "STU-001",
+        "personalInfo": {
+          "firstName": "Rahim",
+          "lastName": "Ahmed",
+          "gender": "Male",
+          "dateOfBirth": "2008-05-14",
+          "contact": {
+            "email": "rahim.ahmed@example.com",
+            "phone": "+8801700000001",
+            "address": {
+              "street": "12 Lake Road",
+              "city": "Dhaka",
+              "postalCode": "1207",
+              "country": "Bangladesh"
+            }
+          }
+        },
+        "classInfo": {
+          "grade": "10",
+          "section": "A",
+          "rollNumber": 15,
+          "classTeacher": "Mrs. Sharmeen Akter"
+        },
+        "academicRecords": {
+          "subjects": [
+            {
+              "subjectName": "Mathematics",
+              "subjectCode": "MATH-101",
+              "teacher": "Mr. Hasan",
+              "exams": [
+                {
+                  "examType": "Midterm",
+                  "date": "2025-06-15",
+                  "totalMarks": 100,
+                  "obtainedMarks": 88,
+                  "grade": "A",
+                  "remarks": "Excellent performance"
+                },
+                {
+                  "examType": "Final",
+                  "date": "2025-11-20",
+                  "totalMarks": 100,
+                  "obtainedMarks": 91,
+                  "grade": "A+",
+                  "remarks": "Outstanding improvement"
+                }
+              ],
+              "assignments": [
+                {
+                  "title": "Algebra Project",
+                  "submittedOn": "2025-07-01",
+                  "marks": 18,
+                  "totalMarks": 20,
+                  "feedback": "Well structured and accurate"
+                }
+              ],
+              "attendance": {
+                "totalClasses": 120,
+                "attended": 112,
+                "percentage": 93.3
+              }
+            },
+            {
+              "subjectName": "Physics",
+              "subjectCode": "PHY-101",
+              "teacher": "Ms. Farzana",
+              "exams": [
+                {
+                  "examType": "Midterm",
+                  "date": "2025-06-18",
+                  "totalMarks": 100,
+                  "obtainedMarks": 79,
+                  "grade": "B+",
+                  "remarks": "Good but needs conceptual clarity"
+                },
+                {
+                  "examType": "Final",
+                  "date": "2025-11-22",
+                  "totalMarks": 100,
+                  "obtainedMarks": 85,
+                  "grade": "A",
+                  "remarks": "Improved significantly"
+                }
+              ],
+              "labWork": [
+                {
+                  "experimentName": "Ohm's Law",
+                  "date": "2025-08-05",
+                  "marks": 25,
+                  "totalMarks": 30
+                }
+              ],
+              "attendance": {
+                "totalClasses": 110,
+                "attended": 100,
+                "percentage": 90.9
+              }
+            }
+          ],
+          "overallPerformance": {
+            "totalMarks": 400,
+            "obtainedMarks": 343,
+            "percentage": 85.75,
+            "gpa": 4.50,
+            "grade": "A"
+          }
+        },
+        "extraCurricular": {
+          "sports": [
+            {
+              "name": "Football",
+              "position": "Forward",
+              "achievements": ["Inter-school Champion 2025"]
+            }
+          ],
+          "clubs": [
+            {
+              "name": "Science Club",
+              "role": "Member"
+            }
+          ]
+        },
+        "disciplinaryRecords": [],
+        "systemMetadata": {
+          "createdAt": "2025-01-10T09:30:00Z",
+          "updatedAt": "2025-12-01T14:45:00Z",
+          "status": "active"
+        }
+      }
+    ]
+  }
+}
+]
