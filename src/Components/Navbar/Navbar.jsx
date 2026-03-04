@@ -3,7 +3,7 @@ import React from 'react';
 const Navbar = () => {
     return (
      <div>
-        <div className="navContainer flex justify-between items-center">
+        <div className="navContainer flex justify-between items-center w-11/12 mx-auto mt-10">
             <div className="navStart flex items-center">
 
                   <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -23,6 +23,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navEnd">
+                <button className='btn btn-ghost'>LogOut</button>
                 <button className='btn btn-ghost'>LogOut</button>
             </div>
         </div>
