@@ -1,9 +1,12 @@
 import React from 'react';
+import Navbar from './Components/Navbar/Navbar';
 
 const App = () => {
   return (
     <div>
-      <h1>Rechart projects comming soon.</h1>
+      <nav>
+        <Navbar></Navbar>
+      </nav>
     </div>
   );
 };
